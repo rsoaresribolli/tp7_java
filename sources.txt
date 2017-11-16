@@ -1,0 +1,10 @@
+./ExpAbstraite.java
+./UnaireCos.java
+./UnaireSin.java
+./BinairePlus.java
+./Constante.java
+./ExpUnaire.java
+./BinaireMult.java
+./TestAffichageInfixe.java
+./ExpBinaire.java
+./Variable.java
