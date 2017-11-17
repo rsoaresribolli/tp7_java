@@ -68,9 +68,12 @@ Variable:
 
 # Execution:
 # on peut taper directement la ligne de commande :
-#   > java -classpath bin TestGUI
+#   > java -classpath build TestEval
 # ou bien lancer l'execution en passant par ce Makefile:
 #   > make exeIHM
+
+run:
+	java -classpath build TestEval
 
 clean:
 	rm -rf build/*.class
