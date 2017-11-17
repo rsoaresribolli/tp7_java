@@ -15,4 +15,10 @@ public class UnaireCos extends ExpUnaire{
     return "cos";
   }
 
+  @Override
+  public double evaluer (Env env){
+    //Propage l'exception si c'est le cas
+    return Math.cos(operande.evaluer(env));
+  }
+
 }

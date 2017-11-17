@@ -8,3 +8,6 @@
 ./TestAffichageInfixe.java
 ./ExpBinaire.java
 ./Variable.java
+./TestEval.java
+./BinairePuissance.java
+./UnaireExp.java

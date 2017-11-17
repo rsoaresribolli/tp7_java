@@ -15,4 +15,10 @@ public class UnaireSin extends ExpUnaire{
     return "sin";
   }
 
+  @Override
+  public double evaluer (Env env){
+    //Propage l'exception si c'est le cas
+    return Math.sin(operande.evaluer(env));
+  }
+
 }

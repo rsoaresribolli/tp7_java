@@ -11,4 +11,9 @@ public class Variable extends ExpAbstraite{
   public String toStringInfixe(){
     return nom;
   }
+
+  @Override
+  public double evaluer(Env env){
+    return env.obtenirValeur(nom);
+  }
 }

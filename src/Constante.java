@@ -11,4 +11,9 @@ public class Constante extends ExpAbstraite{
   public String toStringInfixe(){
     return String.valueOf(valeur);
   }
+
+  @Override
+  public double evaluer(Env env){
+    return valeur;
+  }
 }

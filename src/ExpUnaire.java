@@ -1,7 +1,7 @@
 
 public abstract class ExpUnaire extends ExpAbstraite {
 
-  private ExpAbstraite operande;
+  protected ExpAbstraite operande;
 
   public abstract String operateurToString();
 

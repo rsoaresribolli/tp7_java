@@ -15,4 +15,10 @@ public class BinairePlus extends ExpBinaire {
     return "+";
   }
 
+  @Override
+  public double evaluer (Env env){
+    //Propage l'exception si c'est le cas
+    return opGauche.evaluer(env) + opDroite.evaluer(env);
+  }
+
 }

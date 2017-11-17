@@ -1,8 +1,8 @@
 
 public abstract class ExpBinaire extends ExpAbstraite {
 
-  private ExpAbstraite opGauche;
-  private ExpAbstraite opDroite;
+  protected ExpAbstraite opGauche;
+  protected ExpAbstraite opDroite;
 
   public abstract String operateurToString();
 
@@ -11,10 +11,12 @@ public abstract class ExpBinaire extends ExpAbstraite {
     this.opDroite = opDroite;
   }
 
+
   @Override
   public String toStringInfixe(){
     return "(" + opGauche.toStringInfixe() + operateurToString() + opDroite.toStringInfixe() + ")";
   }
+
 
 
 }
