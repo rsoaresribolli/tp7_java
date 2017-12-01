@@ -7,6 +7,7 @@ public abstract class ExpAbstraite {
 
   @Override
   public String toString(){
-    return "Je suis une expression et me voila en notation infixee: " + toStringInfixe();
+    //return "Je suis une expression et me voila en notation infixee: " + toStringInfixe();
+    return toStringInfixe();
   }
 }

@@ -33,9 +33,6 @@ Constante:
 Env:
 	javac -d build -sourcepath src src/Env.java
 
-Evaluable:
-	javac -d build -sourcepath src src/Evaluable.java
-
 ExpAbstraite:
 	javac -d build -sourcepath src src/ExpAbstraite.java
 
@@ -65,6 +62,16 @@ UnaireSin:
 
 Variable:
 	javac -d build -sourcepath src src/Variable.java
+
+Evaluable:
+	javac -d build -sourcepath src src/Evaluable.java
+	javac -d build -sourcepath src src/ExpressionEvaluable.java
+	javac -d build -sourcepath src src/Rational.java
+	javac -d build -sourcepath src src/RationalEvaluable.java
+	javac -d build -sourcepath src src/TestInterfaceEvaluable.java
+
+TestInterfaceEvaluable:
+	java -classpath build TestInterfaceEvaluable
 
 # Execution:
 # on peut taper directement la ligne de commande :
